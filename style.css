@@ -1,0 +1,17 @@
+.container-fluid{
+    border: 1px solid black;
+}
+
+header{
+    background-image: url("kepek/20459074.jpg");
+    height: 420px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px black;
+    color: white;
+    padding-top: 70px;
+    letter-spacing: 2px;
+}
