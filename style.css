@@ -1,17 +1,45 @@
-.container-fluid{
+.container-fluid {
     border: 1px solid black;
 }
 
-header{
+header {
     background-image: url("kepek/20459074.jpg");
     height: 420px;
     background-size: cover;
     background-attachment: fixed;
 }
-h1{
+
+h1 {
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 5px 5px 5px black;
     color: white;
     padding-top: 70px;
     letter-spacing: 2px;
+}
+
+.row {
+    height: 20px;
+}
+
+.col {
+    border: 1px solid black;
+}
+
+.feher-div {
+    background-color: white;
+}
+
+.szurke-div {
+    background-color: gray;
+}
+
+#bal {
+    width: 50%;
+    top: 25%;
+    position: relative;
+}
+
+#jobb {
+width: 50%;
+
 }
