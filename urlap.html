@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+
+<body>
+    <div>
+        <h1>Adatok felvétele</h1>
+        <form>
+
+            <p>
+                <label>Vezetéknév:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Keresztnév:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Születési év:</label>
+                <input type="number" max="2023" min="1900">
+            </p>
+            <p>
+                <label>Email cím</label>
+                <input type="text" placeholder="email@cim.hu">
+            </p>
+            <p>
+                <label>Email cím mégegyszer</label>
+                <input type="text" placeholder="email@cim.hu">
+            </p>
+            <p>
+                <label>Jelszó</label>
+                <input type="password">
+            </p>
+            <p>
+                <label>Jelszó mégegyszer</label>
+                <input type="password">
+            </p>
+            <p>
+                <input type="radio" name="csop1">radiobutton1 <br>
+                <input type="radio" name="csop1">radiobutton2 <br>
+                <input type="radio" name="csop1">radiobutton3 <br>
+                <input type="radio" name="csop1">radiobutton4 <br>
+            </p>
+            <p>
+                <input type="radio" name="csop2">radiobutton1 <br>
+                <input type="radio" name="csop2">radiobutton2 <br>
+                <input type="radio" name="csop2">radiobutton3 <br>
+                <input type="radio" name="csop2">radiobutton4 <br>
+            </p>
+            <p>
+                <input type="checkbox" checked>checkbox1 <br>
+                <input type="checkbox">checkbox2 <br>
+                <input type="checkbox">checkbox3 <br>
+                <input type="checkbox">checkbox4 <br>
+
+            </p>
+
+            <p>
+                <textarea cols="50" rows="6"></textarea>
+            </p>
+
+            <p>
+                <select>
+                    <option value="Egyes">Egyes</option>
+                    <option value="Kettes">Kettes</option>
+                    <option value="Hármas">Hármas</option>
+                    <option value="Négyes">Négyes</option>
+                </select>
+            </p>
+
+            <p>
+                <input type="text" value="Proba" readonly>
+            </p>
+
+            <p>
+                csúszka:
+                <input type="range" min="100" max="1000" value="200" step="10">
+            </p>
+
+            <p>
+
+                <!--
+                    <input type="button" value="Küldés">
+                    <input type="submit" value="Küldés"> 
+                    <button type="submit">Küldés</button>
+                -->
+
+
+                <button disabled>Küldés</button>
+            </p>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
