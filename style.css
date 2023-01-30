@@ -43,3 +43,19 @@ h1 {
 width: 50%;
 
 }
+
+@media screen and (max-width:1460px)
+{
+    header
+    {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:1140px)
+{
+    header
+    {
+        height: 250px;
+    }
+}
